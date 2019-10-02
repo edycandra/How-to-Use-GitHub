@@ -72,7 +72,7 @@ $ git add <file>
 $ git add README
 $ git commit -m 'Initial project version'
 ```
-#### Checking the status of your files
+##### Checking the status of your files
 
 The main tool you use to determine which files are in which state is the `$ git status` command. If you run this command directly after a clone, you should see something like this:
 
@@ -94,7 +94,7 @@ $ git status
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-#### Staging files
+##### Staging files
 
 After initializing a git repository in the chosen directory, all files will now be tracked. Any changes made to any file will be shown after a `$ git status` as changes not staged for commit.
 
